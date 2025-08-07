@@ -152,7 +152,6 @@ Both original and modified works are released under the MIT License. See [LICENS
 
 - **Issues**: [GitHub Issues](https://github.com/jon-the-dev/github-ai-autobot-action/issues)
 - **Author**: [Jon Price](https://linkedin.com/in/jonpricelinux) - Cloud Architect & DevSecOps Specialist
-- **Company**: [Tier1 Development](https://tier1dev.com) - Cloud-native solutions
 
 ---
 
