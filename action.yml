@@ -1,0 +1,34 @@
+name: "GitHub AI Autobot Action"
+description: "Intelligent code review automation powered by OpenAI GPT and Anthropic Claude - Advanced v2 evolution"
+inputs:
+  GITHUB_TOKEN:
+    description: "GitHub token to interact with the repository."
+    required: true
+  OPENAI_API_KEY:
+    description: "OpenAI API key for GPT models."
+    required: false
+  CLAUDE_API_KEY:
+    description: "Anthropic API key for Claude models."
+    required: false
+  OPENAI_API_MODEL:
+    description: "OpenAI API model (deprecated, use AI_MODEL instead)."
+    required: false
+    default: "gpt-4o"
+  AI_PROVIDER:
+    description: "AI provider to use (openai, claude, or auto-detect from model)."
+    required: false
+    default: "auto"
+  AI_MODEL:
+    description: "AI model to use (e.g., gpt-4, claude-3.5-sonnet, etc.)."
+    required: false
+    default: "gpt-4o"
+  exclude:
+    description: "Glob patterns to exclude files from the diff analysis"
+    required: false
+    default: ""
+runs:
+  using: "node20"
+  main: "dist/index.js"
+branding:
+  icon: "zap"
+  color: "blue"

@@ -1,0 +1,30 @@
+{
+  "name": "github-ai-autobot-action",
+  "version": "2.0.0",
+  "description": "GitHub AI Autobot Action - An intelligent code review bot powered by OpenAI GPT and Anthropic Claude",
+  "main": "lib/main.js",
+  "author": "Jon Price <jon@tier1dev.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "package": "ncc build --source-map --license licenses.txt",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "setup": "yarn install && yarn build && yarn package"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@octokit/rest": "^22.0.0",
+    "minimatch": "^10.0.1",
+    "openai": "^4.20.1",
+    "parse-diff": "^0.11.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vercel/ncc": "^0.36.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.9.2"
+  }
+}
