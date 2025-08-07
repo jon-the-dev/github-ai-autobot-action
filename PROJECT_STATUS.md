@@ -114,7 +114,6 @@ Users can upgrade from the original ai-codereviewer to v2 by:
 - **Author**: Jon Price ([@jon-the-dev](https://github.com/jon-the-dev))
 - **Email**: jon@tier1dev.com
 - **LinkedIn**: [Jon Price](https://linkedin.com/in/jonpricelinux)
-- **Company**: [Tier1 Development](https://tier1dev.com)
 
 ## 🤝 Original Attribution
 
